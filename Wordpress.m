@@ -100,16 +100,12 @@ static Wordpress *sharedWordpressManager = nil;
     [self setErrorMessage:@"Invalid URL." withFaultCode:WP_ERROR_URL];
   }
   
-  #ifdef RELEASE_MODE
-    EMKeychainProxy *keychainProxy = [EMKeychainProxy sharedProxy];
-    EMGenericKeychainItem *keychain = [keychainProxy genericKeychainItemForService:@"WordpressNotifier" withUsername:username];
-    if(keychain){
-      password = [keychain password];
-    }
-  #else
-    #include "password"
-  #endif
-
+  EMKeychainProxy *keychainProxy = [EMKeychainProxy sharedProxy];
+  EMGenericKeychainItem *keychain = [keychainProxy genericKeychainItemForService:@"WordpressNotifier" withUsername:username];
+  if(keychain){
+    password = [keychain password];
+  }
+  
   ZLog(@"updated Wordpress object prefs");
   [[NSNotificationCenter defaultCenter] postNotificationName:@"wordpressFinishedUpdatingPreferences" object:self];
 }
