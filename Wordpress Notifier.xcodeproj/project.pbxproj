@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CA4869050EA17E440048BE80 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4869040EA17E440048BE80 /* AppController.m */; };
+		CA48699E0EA1AC750048BE80 /* wordpress_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = CA48699B0EA1AC750048BE80 /* wordpress_grey.png */; };
+		CA4869A00EA1AC750048BE80 /* wordpress_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = CA48699D0EA1AC750048BE80 /* wordpress_blue.png */; };
+		CA4869CF0EA1BB520048BE80 /* RoundedRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4869CE0EA1BB520048BE80 /* RoundedRectangle.m */; };
+		CA4869E00EA1BC470048BE80 /* StatusIconImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4869DF0EA1BC470048BE80 /* StatusIconImage.m */; };
+		CA486B720EA1FCCD0048BE80 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA486B710EA1FCCD0048BE80 /* Preferences.xib */; };
+		CA486B7C0EA1FD140048BE80 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA486B7B0EA1FD140048BE80 /* PreferenceController.m */; };
+		CA486C250EA3046B0048BE80 /* EMKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA486C210EA3046B0048BE80 /* EMKeychainItem.m */; };
+		CA486C260EA3046B0048BE80 /* EMKeychainProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA486C240EA3046B0048BE80 /* EMKeychainProxy.m */; };
+		CA486C300EA3059E0048BE80 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA486C2F0EA3059D0048BE80 /* Carbon.framework */; };
+		CA486CF30EA305AE0048BE80 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA486CF20EA305AE0048BE80 /* Security.framework */; };
+		CA486DB60EA325D00048BE80 /* UKLoginItemRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = CA486DB50EA325D00048BE80 /* UKLoginItemRegistry.m */; };
+		CA486DD70EA329230048BE80 /* LoginItemsAE.c in Sources */ = {isa = PBXBuildFile; fileRef = CA486DD60EA329230048BE80 /* LoginItemsAE.c */; };
+		CA486F030EA472270048BE80 /* Wordpress.m in Sources */ = {isa = PBXBuildFile; fileRef = CA486F020EA472270048BE80 /* Wordpress.m */; };
+		CA4871990EA5F0DE0048BE80 /* WordpressNotifier.icns in Resources */ = {isa = PBXBuildFile; fileRef = CA4871980EA5F0DE0048BE80 /* WordpressNotifier.icns */; };
+		CA915D8C0EC699DF009B2F9D /* XMLRPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA915D8B0EC699DF009B2F9D /* XMLRPC.framework */; };
+		CA915D960EC699E1009B2F9D /* XMLRPC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA915D8B0EC699DF009B2F9D /* XMLRPC.framework */; };
+		CA915DA60EC6BD5E009B2F9D /* wordpress_red.png in Resources */ = {isa = PBXBuildFile; fileRef = CA915DA50EC6BD5E009B2F9D /* wordpress_red.png */; };
+		CA915DF20EC7CB9C009B2F9D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CA915DF10EC7CB9C009B2F9D /* Credits.rtf */; };
+		CA915E210EC80A4B009B2F9D /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA915E200EC80A4B009B2F9D /* Growl.framework */; };
+		CA915E290EC80A50009B2F9D /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA915E200EC80A4B009B2F9D /* Growl.framework */; };
+		CA915E2F0EC80B40009B2F9D /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = CA915E2E0EC80B40009B2F9D /* Growl Registration Ticket.growlRegDict */; };
+		CAF6C8AB0EDD067D007C7025 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF6C8AA0EDD067C007C7025 /* Sparkle.framework */; };
+		CAF6C8B40EDD06A8007C7025 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CAF6C8AA0EDD067C007C7025 /* Sparkle.framework */; };
+		CAF6C8CA0EDD08B0007C7025 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = CAF6C8C90EDD08B0007C7025 /* dsa_pub.pem */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA486F280EA4734B0048BE80 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CAF6C8B40EDD06A8007C7025 /* Sparkle.framework in CopyFiles */,
+				CA915E290EC80A50009B2F9D /* Growl.framework in CopyFiles */,
+				CA915D960EC699E1009B2F9D /* XMLRPC.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Wordpress Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wordpress Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4869030EA17E440048BE80 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		CA4869040EA17E440048BE80 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		CA48699B0EA1AC750048BE80 /* wordpress_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordpress_grey.png; sourceTree = "<group>"; };
+		CA48699D0EA1AC750048BE80 /* wordpress_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordpress_blue.png; sourceTree = "<group>"; };
+		CA4869CD0EA1BB520048BE80 /* RoundedRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedRectangle.h; sourceTree = "<group>"; };
+		CA4869CE0EA1BB520048BE80 /* RoundedRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedRectangle.m; sourceTree = "<group>"; };
+		CA4869DE0EA1BC470048BE80 /* StatusIconImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusIconImage.h; sourceTree = "<group>"; };
+		CA4869DF0EA1BC470048BE80 /* StatusIconImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusIconImage.m; sourceTree = "<group>"; };
+		CA486B710EA1FCCD0048BE80 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		CA486B7A0EA1FD140048BE80 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		CA486B7B0EA1FD140048BE80 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+		CA486C210EA3046B0048BE80 /* EMKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainItem.m; sourceTree = "<group>"; };
+		CA486C220EA3046B0048BE80 /* EMKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainItem.h; sourceTree = "<group>"; };
+		CA486C230EA3046B0048BE80 /* EMKeychainProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainProxy.h; sourceTree = "<group>"; };
+		CA486C240EA3046B0048BE80 /* EMKeychainProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainProxy.m; sourceTree = "<group>"; };
+		CA486C2F0EA3059D0048BE80 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		CA486CF20EA305AE0048BE80 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		CA486DB40EA325D00048BE80 /* UKLoginItemRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKLoginItemRegistry.h; sourceTree = "<group>"; };
+		CA486DB50EA325D00048BE80 /* UKLoginItemRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKLoginItemRegistry.m; sourceTree = "<group>"; };
+		CA486DD50EA329230048BE80 /* LoginItemsAE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginItemsAE.h; sourceTree = "<group>"; };
+		CA486DD60EA329230048BE80 /* LoginItemsAE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LoginItemsAE.c; sourceTree = "<group>"; };
+		CA486F010EA472260048BE80 /* Wordpress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wordpress.h; sourceTree = "<group>"; };
+		CA486F020EA472270048BE80 /* Wordpress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wordpress.m; sourceTree = "<group>"; };
+		CA4871980EA5F0DE0048BE80 /* WordpressNotifier.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WordpressNotifier.icns; sourceTree = "<group>"; };
+		CA915D8B0EC699DF009B2F9D /* XMLRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMLRPC.framework; sourceTree = "<group>"; };
+		CA915DA50EC6BD5E009B2F9D /* wordpress_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordpress_red.png; sourceTree = "<group>"; };
+		CA915DF10EC7CB9C009B2F9D /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		CA915E200EC80A4B009B2F9D /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		CA915E2E0EC80B40009B2F9D /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		CAF6C8AA0EDD067C007C7025 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		CAF6C8C90EDD08B0007C7025 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				CA486C300EA3059E0048BE80 /* Carbon.framework in Frameworks */,
+				CA486CF30EA305AE0048BE80 /* Security.framework in Frameworks */,
+				CA915D8C0EC699DF009B2F9D /* XMLRPC.framework in Frameworks */,
+				CA915E210EC80A4B009B2F9D /* Growl.framework in Frameworks */,
+				CAF6C8AB0EDD067D007C7025 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF6C8AA0EDD067C007C7025 /* Sparkle.framework */,
+				CA915E200EC80A4B009B2F9D /* Growl.framework */,
+				CA915D8B0EC699DF009B2F9D /* XMLRPC.framework */,
+				CA486CF20EA305AE0048BE80 /* Security.framework */,
+				CA486C2F0EA3059D0048BE80 /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Wordpress Notifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Wordpress Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				CA486DAE0EA325B50048BE80 /* Login Item */,
+				CA486DA30EA325940048BE80 /* EMKeychain */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Wordpress Notifier";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CA486F010EA472260048BE80 /* Wordpress.h */,
+				CA486F020EA472270048BE80 /* Wordpress.m */,
+				CA4869DE0EA1BC470048BE80 /* StatusIconImage.h */,
+				CA4869DF0EA1BC470048BE80 /* StatusIconImage.m */,
+				CA4869CD0EA1BB520048BE80 /* RoundedRectangle.h */,
+				CA4869CE0EA1BB520048BE80 /* RoundedRectangle.m */,
+				CA4869030EA17E440048BE80 /* AppController.h */,
+				CA4869040EA17E440048BE80 /* AppController.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				CA486B7A0EA1FD140048BE80 /* PreferenceController.h */,
+				CA486B7B0EA1FD140048BE80 /* PreferenceController.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA915E2E0EC80B40009B2F9D /* Growl Registration Ticket.growlRegDict */,
+				CAF6C8C90EDD08B0007C7025 /* dsa_pub.pem */,
+				CA915DF10EC7CB9C009B2F9D /* Credits.rtf */,
+				CA915DA50EC6BD5E009B2F9D /* wordpress_red.png */,
+				CA4871980EA5F0DE0048BE80 /* WordpressNotifier.icns */,
+				CA48699B0EA1AC750048BE80 /* wordpress_grey.png */,
+				CA48699D0EA1AC750048BE80 /* wordpress_blue.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				CA486B710EA1FCCD0048BE80 /* Preferences.xib */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA486DA30EA325940048BE80 /* EMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				CA486C210EA3046B0048BE80 /* EMKeychainItem.m */,
+				CA486C220EA3046B0048BE80 /* EMKeychainItem.h */,
+				CA486C230EA3046B0048BE80 /* EMKeychainProxy.h */,
+				CA486C240EA3046B0048BE80 /* EMKeychainProxy.m */,
+			);
+			name = EMKeychain;
+			sourceTree = "<group>";
+		};
+		CA486DAE0EA325B50048BE80 /* Login Item */ = {
+			isa = PBXGroup;
+			children = (
+				CA486DD50EA329230048BE80 /* LoginItemsAE.h */,
+				CA486DD60EA329230048BE80 /* LoginItemsAE.c */,
+				CA486DB40EA325D00048BE80 /* UKLoginItemRegistry.h */,
+				CA486DB50EA325D00048BE80 /* UKLoginItemRegistry.m */,
+			);
+			name = "Login Item";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Wordpress Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Wordpress Notifier" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				CA486F280EA4734B0048BE80 /* CopyFiles */,
+				CAF6C9790EDD1975007C7025 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wordpress Notifier";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Wordpress Notifier";
+			productReference = 8D1107320486CEB800E47090 /* Wordpress Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Wordpress Notifier" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Wordpress Notifier */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Wordpress Notifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				CA48699E0EA1AC750048BE80 /* wordpress_grey.png in Resources */,
+				CA4869A00EA1AC750048BE80 /* wordpress_blue.png in Resources */,
+				CA486B720EA1FCCD0048BE80 /* Preferences.xib in Resources */,
+				CA4871990EA5F0DE0048BE80 /* WordpressNotifier.icns in Resources */,
+				CA915DA60EC6BD5E009B2F9D /* wordpress_red.png in Resources */,
+				CA915DF20EC7CB9C009B2F9D /* Credits.rtf in Resources */,
+				CA915E2F0EC80B40009B2F9D /* Growl Registration Ticket.growlRegDict in Resources */,
+				CAF6C8CA0EDD08B0007C7025 /* dsa_pub.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAF6C9790EDD1975007C7025 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/ruby;
+			shellScript = "#!/usr/bin/env ruby\n# from : http://github.com/indirect/xcode-git-build-scripts/tree/master/git-version.sh\n# Xcode auto-versioning script for git by Andre Arko\n# This script will set your CFBundleVersion number to the name of the most recent\n# git tag, and include the current commit's distance from that tag and sha1 hash\n \n# With tag \"v1.0\", and two commits since then, the build will be:\n# v1.0 (b2 h12345)\n \n# Create new tags with \"git tag <version> -m <message>\"\n \n# based on the ruby script by Abizern which was\n# based on the git script by Marcus S. Zarra and Matt Long which was\n# based on the Subversion script by Axel Andersson\n \nif ENV[\"BUILD_STYLE\"] != \"Release\"\n\tputs \"Not a Release\"\n\texit\nend\n\ngitnum = `/opt/local/bin/git describe --tags`.chomp.split(\"-\")\n \nversion = gitnum[0] #+ \" (b#{gitnum[1]} #{gitnum[2]})\"\n \ninfo_file = File.join(ENV['BUILT_PRODUCTS_DIR'], ENV['INFOPLIST_PATH'])\ninfo = File.open(info_file, \"r\").read\n \nversion_re = /([\\t ]+<key>CFBundleVersion<\\/key>\\n[\\t ]+<string>).*?(<\\/string>)/\ninfo =~ version_re\nbundle_version_string = $1 + version + $2\n \ninfo.gsub!(version_re, bundle_version_string)\nFile.open(info_file, \"w\") { |file| file.write(info) }\nputs \"Set version string to '#{version}'\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				CA4869050EA17E440048BE80 /* AppController.m in Sources */,
+				CA4869CF0EA1BB520048BE80 /* RoundedRectangle.m in Sources */,
+				CA4869E00EA1BC470048BE80 /* StatusIconImage.m in Sources */,
+				CA486B7C0EA1FD140048BE80 /* PreferenceController.m in Sources */,
+				CA486C250EA3046B0048BE80 /* EMKeychainItem.m in Sources */,
+				CA486C260EA3046B0048BE80 /* EMKeychainProxy.m in Sources */,
+				CA486DB60EA325D00048BE80 /* UKLoginItemRegistry.m in Sources */,
+				CA486DD70EA329230048BE80 /* LoginItemsAE.c in Sources */,
+				CA486F030EA472270048BE80 /* Wordpress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../xmlrpc-1.5.1/build/Deployment\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wordpress Notifier_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Wordpress Notifier";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../xmlrpc-1.5.1/build/Deployment\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wordpress Notifier_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Wordpress Notifier";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = "=";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG_MODE;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = "=";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = RELEASE_MODE;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Wordpress Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Wordpress Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

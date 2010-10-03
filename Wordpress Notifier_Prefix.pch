@@ -1,0 +1,16 @@
+//
+// Prefix header for all source files of the 'Wordpress Notifier' target in the 'Wordpress Notifier' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#ifdef DEBUG_MODE
+  #define ZLog( s, ... ) NSLog( @"<%@:%d> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+  #define ZLog( s, ... )  
+#endif
+
+// Defined for erorrs, which are logged to console
+#define ELog NSLog
