@@ -1,0 +1,72 @@
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+}
+
+.center_image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title{
+	text-align: center;
+}
+
+#footer{
+	text-align: center;
+	color: rgb(193, 193, 193);
+	margin-top: 2em;
+}
+
+#footer a{
+	color: rgb(184, 184, 184);
+}
+
+.header_not_top{
+	margin-top: 1em;
+}
+
+.screenshot{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+}
+
+#dev{
+	vertical-align: bottom;
+}
+
+/* list: http://css.maxdesign.com.au/listamatic/horizontal32.htm */
+
+#navcontainer { 
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+/*Fat Erik's Pipelist*/
+#navlist
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#navlist li
+{
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+#navlist li a{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#navlist li:before { content: "|  "; }
+#navlist li:first-child:before { content: ""; }

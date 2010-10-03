@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Wordpress Notifier for Mac OSX</title>
+	<title>Wordpress Notifier : Report a bug</title>
 
 	<!-- blueprint -->
 	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
@@ -52,65 +52,55 @@ pageTracker._trackPageview();
 					<li><a href="http://paulwilliam.github.com/Wordpress-Notifier/">Source code on GitHub</a></li>
     </div>
     
-	
-	    <div class="span-8">
-					<h3>About</h3>
-					<p>Do you leave your Wordpress blog's comment admin page open in Safari all day long, clicking refresh every two minutes?</p>
+<div class='span-6'>&nbsp;</div><div class='span-12'><h2>Reporting bugs</h2>
 
-<p>Are you sick of your inbox being clogged up with Wordpress "new comment" emails?</p>
+<p>Bug reports need to be detailed and must contain the following information:</p>
 
-<p>If so, then this application is for you!</p>
+<p><strong>1)</strong> Version of Wordpress Notifier (This can be found in the About window).</p>
 
-<p><strong>Wordpress Notifier</strong> is a <strong>Open Source (GPL)</strong> application that alerts you when new unapproved comments are posted on your Wordpress blog.</p>
+<p><strong>2)</strong> Mac OS X version. For example "10.5.4".</p>
 
-<p>It lives in the Mac OS X Status Bar and displays the current unapproved comment count.</p>
+<p><strong>3)</strong> Type of Mac. For example "G4 iBook" or "Mac Mini".</p>
 
-<p>Wordpress Notifier will work with <strong>Wordpress version 2.7</strong> or later <strong>and with Wordpress.com</strong>.</p>
-	    </div>
+<p><strong>4)</strong> Version of Wordpress blog software.</p>
 
-	    <div class="span-8 middle_column">
-				<h3>Features</h3>
-				<ul>
-<li><em>Current</em>
+<p><strong>5)</strong> The Wordpress Blog URL (copy and paste exactly from the preferences dialog).</p>
 
-<ul>
-<li><strong>Free!</strong></li>
-<li>Works with Wordpress 2.7 or later.</li>
-<li>Works with Wordpress.com</li>
-<li>Displays comment count in the Status Bar.</li>
-<li>Displays comments in Status Bar menu.</li>
-<li>Growl Integration.</li>
-</ul></li>
-</ul>
-				<h3 class="header_not_top">Screenshots</h3>
-				<p>Click to increase screenshot size.</p>
+<p><strong>6)</strong> A list of all Wordpress plugins you have installed.</p>
 
-<p><a rel="lightbox" href="images/s2.jpg"><img class="screenshot" src="images/sc2-tm.png"></a>
-<a rel="lightbox" href="images/s1.jpg"><img class="screenshot" src="images/sc1-tm.png"></a></p>
-	    </div>
+<p>As well as the above, the output of the Console application (bundled with Mac OS X) needs to be provided. Console can be found at</p>
 
-	    <div class="span-8 last">
-				<a name="download"></a>
-				<h3>Download</h3>
-				<p>Wordpress Notifier is a Universal Binary (Intel / PPC G4 / PPC G5 ) supporting Mac OS X 10.5 and 10.6.</p>
+<p><strong>/Application/Utilities/Console</strong></p>
 
-<p><a href="http://github.com/paulwilliam/Wordpress-Notifier/downloads" title ="Download Link" onClick="javascript: pageTracker._trackPageview('/downloads/WordpressNotifier'); ">Wordpress Notifier 0.4</a></p>
+<p>Once Console is launched make sure "All Messages" is selected (It is at the top of the left hand side bar). The scroll down and copy/paste the most recent output from Wordpress Notifier.</p>
 
-<p><a href="http://github.com/paulwilliam/Wordpress-Notifier">Source code at GitHub</a></p>
-				
-				<h3 class="header_not_top">Change Log</h3>	
-				<p><em>2010:</em> Wordpress Notifier is now open source!</p>
+<p>It will look something like this:</p>
 
-<p><em>14 Dec 2008:</em> Fixed plugin compatibility. (0.4)</p>
+<pre><code>29/11/08 • Nov  29 • 2:20:33 PM Wordpress Notifier[47567] Wordpress Notifier Error: 'Wordpress version unsupported. Please upgrade to Wordpress 2.7.' : -32601 
+29/11/08 • Nov  29 • 2:20:33 PM Wordpress Notifier[47567] Wordpress Error Notification 
+29/11/08 • Nov  29 • 2:20:33 PM Wordpress Notifier[47567] Response source: &lt;?xml version="1.0"?&gt;
+&lt;methodResponse&gt;
+  &lt;fault&gt;
+    &lt;value&gt;
+      &lt;struct&gt;
+        &lt;member&gt;
+          &lt;name&gt;faultCode&lt;/name&gt;
+          &lt;value&gt;&lt;int&gt;-32601&lt;/int&gt;&lt;/value&gt;
+        &lt;/member&gt;
+        &lt;member&gt;
+          &lt;name&gt;faultString&lt;/name&gt;
+          &lt;value&gt;&lt;string&gt;server error. requested method wp.getComments does not exist.&lt;/string&gt;&lt;/value&gt;
+        &lt;/member&gt;
+      &lt;/struct&gt;
+    &lt;/value&gt;
+  &lt;/fault&gt;
+&lt;/methodResponse&gt;
+</code></pre>
 
-<p><em>11 Dec 2008:</em> Updated the update/sparkle URL. (0.3)</p>
+<p>Please file the bug report <a href="http://github.com/paulwilliam/Wordpress-Notifier/issues">at GitHub</a>.</p>
 
-<p><em>30 Nov 2008:</em> PPC and Tiger compatible (0.2)</p>
-
-<p><em>29 Nov 2008:</em> Initial Release (0.1)</p>
-	    </div>
-
-	    <div id="footer" class="span-24">
+<p>Many thanks.</p>
+</div><div class='span-6'>&nbsp;</div>	    <div id="footer" class="span-24">
 	        Copyright &copy; 2010 by <a href="http://www.entropytheblog.com/blog/">Paul William</a>. Application icon by <a href="http://www.shipsomecode.com/">John Winter</a>. Wordpress Notifier is NOT affiliated with Wordpress.com, Wordpress.org or Automattic. 
 	    </div>
 	

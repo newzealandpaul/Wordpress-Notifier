@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Wordpress Notifier : Help / FAQ</title>
+
+	<!-- blueprint -->
+	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
+  <!--[if IE]>
+    <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
+	<!-- end blueprint -->
+	<link rel="stylesheet" href="css/wordpress_notifier.css" type="text/css" media="screen">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<script type="text/javascript">
+	$(function() {
+		$('a[@rel*=lightbox]').lightBox();
+	});
+	</script>
+	<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6472691-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="span-24">
+        <a href="index.php.html"><img id="logo" src="images/website_logo.png"></a>
+    </div>
+		<div class="span-24">
+        <h1 id="title">Wordpress Notifier for Mac OS X</h1>
+    </div>
+
+		<div id="navcontainer" class="span-24">
+        <ul id="navlist">
+					<li><a href="index.php.html">Home</a></li>
+					<li><a href="help.php.html">Help / FAQ</a></li>
+					<li><a href="enable_xmlrpc.php.html">Enable XML-RPC</a></li>
+					<li><a href="bug_reporting.php.html">Bug Reporting</a></li>
+					<li><a href="http://paulwilliam.github.com/Wordpress-Notifier/">Source code on GitHub</a></li>
+    </div>
+    
+<div class='span-6'>&nbsp;</div><div class='span-12'><h2>Help / Troubleshooting</h2>
+
+<h3>First steps</h3>
+
+<p>If you are having problems these are the first three things you should check:</p>
+
+<p><strong>1)</strong> Make sure your blog is running Wordpress 2.7 or later.</p>
+
+<p><strong>2)</strong> Make sure XML-RPC is enabled (These <a href="enable_xmlrpc.php.html">instructions</a> explain how to enable it).</p>
+
+<p><strong>3)</strong> Ensure that the preferences are setup correctly, especially the URL.</p>
+
+<h3>Explanation of error messages</h3>
+
+<p><strong>Wordpress URL is incorrect. HTTP 404 page not found error.</strong></p>
+
+<p>The URL you set in your preferences is not correct. Make sure you are pointing to the directory that holds you blog and include a trailing slash "/".</p>
+
+<p>These examples are <strong>incorrect</strong>:</p>
+
+<ul>
+<li>http://www.myblog.com/blog/index.php (index.php not directory)</li>
+<li>http://www.myblog.com/blog (does not include "/")</li>
+</ul>
+
+<p>This is <strong>correct</strong>:</p>
+
+<ul>
+<li>http://www.myblog.com/blog/</li>
+</ul>
+
+<p><strong>Unknown Error: Unable to parse XML response</strong> or  <strong>Unknown XML-RPC error</strong>.</p>
+
+<p>This could be a bug. See <a href="bug_reporting.php.html">Bug Reporting</a>.</p>
+
+<p><strong>Preferences not set.</strong></p>
+
+<p>You must setup your preferences in the preferences window.</p>
+
+<p><strong>Wordpress XML-RPC support has not enabled (See Help).</strong></p>
+
+<p>These <a href="enable_xmlrpc.php.html">instructions</a> explain how to enable it.</p>
+
+<h2>FAQ</h2>
+
+<p><em>When will Mac OS X 10.4 be supported?</em></p>
+
+<p>It won't, sorry, unless someone pays me enough to take the time to make it work ;)</p>
+
+<p><em>When will Wordpress 2.6 be supported?</em></p>
+
+<p>Short Answer: Wordpress 2.6 does not have the required comment API so it cannot work with Wordpress Notifier.</p>
+
+<p>Long Answer: I have backported the comment API to Wordpress 2.6. <strong>Use at your own risk</strong>. Unzip the <a href="http://www.wordpressnotifier.com/downloads/Wordpress%202.6%20Comment%20API%20Backport.zip">download</a> and read the included instructions on how to install it.</p>
+
+<p><em>When will Wordpress.com / Wordpress MU be supported?</em></p>
+
+<p>Wordpress.com <strong>is supported</strong> right now! Wordpress MU lags behind Wordpress releases. I expect within a few months it will work with Wordpress Notifier.</p>
+</div><div class='span-6'>&nbsp;</div>	    <div id="footer" class="span-24">
+	        Copyright &copy; 2010 by <a href="http://www.entropytheblog.com/blog/">Paul William</a>. Application icon by <a href="http://www.shipsomecode.com/">John Winter</a>. Wordpress Notifier is NOT affiliated with Wordpress.com, Wordpress.org or Automattic. 
+	    </div>
+	
+	</div>
+</body>
+</html>

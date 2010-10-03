@@ -37,7 +37,7 @@ pageTracker._trackPageview();
 
 	<div class="container">
 		<div class="span-24">
-        <a href="index.php.html"><img id="logo" src="images/website_logo.png"></a>
+        <a href="index.php"><img id="logo" src="images/website_logo.png"></a>
     </div>
 		<div class="span-24">
         <h1 id="title">Wordpress Notifier for Mac OS X</h1>
@@ -45,10 +45,10 @@ pageTracker._trackPageview();
 
 		<div id="navcontainer" class="span-24">
         <ul id="navlist">
-					<li><a href="index.php.html">Home</a></li>
-					<li><a href="help.php.html">Help / FAQ</a></li>
-					<li><a href="enable_xmlrpc.php.html">Enable XML-RPC</a></li>
-					<li><a href="bug_reporting.php.html">Bug Reporting</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="help.php">Help / FAQ</a></li>
+					<li><a href="enable_xmlrpc.php">Enable XML-RPC</a></li>
+					<li><a href="bug_reporting.php">Bug Reporting</a></li>
 					<li><a href="http://paulwilliam.github.com/Wordpress-Notifier/">Source code on GitHub</a></li>
     </div>
     
@@ -85,8 +85,8 @@ pageTracker._trackPageview();
 				<h3 class="header_not_top">Screenshots</h3>
 				<p>Click to increase screenshot size.</p>
 
-<p><a rel="lightbox" href="images/s2.jpg"><img class="screenshot" src="images/sc2-tm.png"></a>
-<a rel="lightbox" href="images/s1.jpg"><img class="screenshot" src="images/sc1-tm.png"></a></p>
+<p><a rel="lightbox" href="./images/sc2.jpg"><img class="screenshot" src="./images/sc2-tm.png"></a>
+<a rel="lightbox" href="./images/sc1.jpg"><img class="screenshot" src="./images/sc1-tm.png"></a></p>
 	    </div>
 
 	    <div class="span-8 last">
