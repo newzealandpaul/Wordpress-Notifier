@@ -249,7 +249,7 @@
 
 - (IBAction)openHelp:(id)sender
 {
-  NSURL *url = [NSURL URLWithString:@"http://wordpressnotifier.com/help.php"];
+  NSURL *url = [NSURL URLWithString:@"http://paulwilliam.github.com/Wordpress-Notifier/help.php.html"];
   [[NSWorkspace sharedWorkspace] openURL:url];
 }
 
