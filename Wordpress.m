@@ -147,9 +147,9 @@ static Wordpress *sharedWordpressManager = nil;
 {
   BOOL isError = NO;
   
-  if([[object className] isEqual:@"NSCFArray"] == YES){
+  if([object isKindOfClass:[NSArray class]]){
     for (NSObject *comment in (NSArray *)object) {
-      if([[comment className] isEqual:@"NSCFDictionary"] == NO){
+      if(![comment isKindOfClass:[NSDictionary class]]){
         isError = YES; 
       }
     }
